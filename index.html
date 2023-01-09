@@ -9,11 +9,7 @@
   </head>
   
   <body>
-    <a-scene
-        vr-mode-ui="enabled: false"
-		embedded
-        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-
+    <a-scene>
         <a-box position="0 3.5 -2" rotation="30 30 0" color="skyblue"
             event-set__enter="_event: mouseenter; material.color: yellowgreen; scale: 3 1 1"
             event-set__leave="_event: mouseleave; material.color: skyblue; scale: 1 1 1">
